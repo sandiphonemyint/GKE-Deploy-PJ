@@ -1,5 +1,4 @@
-# 🚀 Automated CI/CD Pipeline project with GKE & Cloud Build
-
+# 🚀 Automated CI/CD Pipeline Project 
 ---
 
 ## Project Overview
