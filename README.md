@@ -39,9 +39,9 @@ It reflects real-world **DevOps practices** by automating the entire software de
 ### 3️⃣ Kubernetes Engine (GKE)
 - Set up a **GKE Standard Cluster** on **GCP console**.
 - In GKE:
-  - Create a **namespace** from Cloud Shell
+  - Create `a namespace` from `Cloud Shell`.
   - Create `kubernetes deployment file (gke.yaml)`.
-  - Create **Cloud Build** to deploy to GKE automatically after building the Docker image.
+  - Create `Cloud Build file` to deploy to GKE automatically after building the Docker image.
 
 ---
 
@@ -56,12 +56,12 @@ It reflects real-world **DevOps practices** by automating the entire software de
 ## 🔗 Project Structure
 ```
 gcp-devops-project/
-├── app.py
-├── requirements.txt
-├── Dockerfile
-├── cloudbuild.yaml
-├── gke.yaml
-└── README.md
+├── app.py                   # Flask application source code
+├── requirements.txt         # Python dependencies
+├── Dockerfile               # Docker image for Flask app
+├── cloudbuild.yaml          # Cloud Build configuration file (CI/CD)
+├── gke.yaml                 # Kubernetes deployment manifest
+└── README.md                # Project documentation
 ```
 ---
 
