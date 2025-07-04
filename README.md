@@ -1,4 +1,4 @@
-## 🚀 DevOps Project: Automated CI/CD Pipeline with GKE & Cloud Build
+# 🚀 Automated CI/CD Pipeline project with GKE & Cloud Build
 
 ---
 
