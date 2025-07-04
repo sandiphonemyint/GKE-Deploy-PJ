@@ -11,7 +11,7 @@ spec:
     metadata:
       labels:
         app: gcp
-  spec:
+    spec:
       containers:
       - name: gcp-devops-gke
         image: gcr.io/turing-seeker-461812-r5/gke-pj
