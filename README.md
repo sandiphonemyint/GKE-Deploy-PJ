@@ -34,8 +34,6 @@ It reflects real-world **DevOps practices** by automating the entire software de
   - Automate the **Docker image build**.
   - Push the Docker image to **Artifact Registry**.
 
-✅ This automates the build process and ensures consistent image creation.
-
 ---
 
 ### 3️⃣ Kubernetes Engine (GKE)
@@ -44,8 +42,6 @@ It reflects real-world **DevOps practices** by automating the entire software de
   - Create a **namespace** from Cloud Shell
   - Create `kubernetes deployment file (gke.yaml)`.
   - Create **Cloud Build** to deploy to GKE automatically after building the Docker image.
-
-✅ Every image is deployed to Kubernetes without manual steps.
 
 ---
 
@@ -67,12 +63,6 @@ gcp-devops-project/
 ├── gke.yaml
 └── README.md
 ```
-- `app.py` → Flask application  
-- `requirements.txt` → Python dependencies  
-- `Dockerfile` → Container image build steps  
-- `cloudbuild.yaml` → CI/CD automation  
-- `gke.yaml` → Kubernetes Deployment + Service  
-
 ---
 
 #### 🔄 CI/CD Flow Summary
