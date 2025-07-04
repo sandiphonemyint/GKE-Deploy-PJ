@@ -145,7 +145,7 @@ HTML = """
 
     <div class="hero">
         <h2>Hello Folks 🚀</h2>
-        <h3>GKE Deployment</h3>
+        <h3>GKE Deployment with Cloud Build</h3>
         <p>DevOps Lifecycle: Plan → Build → Test → Deploy → Monitor</p>
         <a href="https://cloud.google.com/kubernetes-engine" target="_blank">Explore GKE</a>
     </div>
