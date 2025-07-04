@@ -72,7 +72,6 @@ gcp-devops-project/
 - `Dockerfile` → Container image build steps  
 - `cloudbuild.yaml` → CI/CD automation  
 - `gke.yaml` → Kubernetes Deployment + Service  
-- `README.md` → Project documentation
 
 ---
 
