@@ -42,7 +42,7 @@ It reflects real-world **DevOps practices** by automating the entire software de
 - Set up a **GKE Standard Cluster** on **GCP console**.
 - In GKE:
   - Create a **namespace** from Cloud Shell
-  - Create kubernetes deployment file (`gke.yaml`).
+  - Create `kubernetes deployment file (gke.yaml)`.
   - Create **Cloud Build** to deploy to GKE automatically after building the Docker image.
 
 ✅ Every image is deployed to Kubernetes without manual steps.
