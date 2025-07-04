@@ -1,7 +1,18 @@
 steps:
-  - name: 'docker'
-    args: ['build', '-t', 'gcr.io/$PROJECT_ID/gke-pj', '.']
-images:
-- 'gcr.io/$PROJECT_ID/gke-pj'
-options: 
-  logging: CLOUD_LOGGING_ONLY 
+  # build the container image
+- name: "gcr.io/cloud-builders/docker"
+  args: ["build", "-t", "gcr.io/$PROJECT_ID/gke-pj", "."]
+  # push container image
+- name: "gcr.io/cloud-builders/docker"
+  args: ["push", "gcr.io/$PROJECT_ID/gke-pj"]
+  # deploy container image to GKE
+- name: "gcr.io/cloud-builders/gke-pj"
+  args:
+  - run
+  - --filename=gke.yaml
+  - --image=gcr.io/$PROJECT_ID/gke-pj
+  - --location=us-central1-a
+  - --cluster=gcp-deploy-pj
+  - --namespace=gke-deploy-dev
+options: # <-- Add this field
+  logging: CLOUD_LOGGING_ONLY # <-- Indent 'logging' under 'options'
