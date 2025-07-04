@@ -30,8 +30,8 @@ It reflects real-world **DevOps practices** by automating the entire software de
 ### 2️⃣ Cloud Build 
 - Create a **Cloud Build Trigger** connected to the GitHub repository.
 - Create a `Cloud Build configuration(YAML)` file to:
-  - Automate the **Docker image build**.
-  - Push the Docker image to **Artifact Registry**.
+  - Automated build the Docker image.
+  - Push and store the Docker image to **Artifact Registry**.
 
 ---
 
@@ -39,7 +39,7 @@ It reflects real-world **DevOps practices** by automating the entire software de
 - Set up a **GKE Standard Cluster** on **GCP console**.
 - In GKE:
   - Create `a namespace` from `Cloud Shell`.
-  - Create `kubernetes deployment file (gke.yaml)`.
+  - Create a deployment/service yaml file `gke.yaml` for K8 deployment.
   - Create `Cloud Build file` to deploy to GKE automatically after building the Docker image.
 
 ---
