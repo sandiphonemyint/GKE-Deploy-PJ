@@ -23,7 +23,7 @@ It reflects real-world **DevOps practices** by automating the entire software de
 
 ### 1️⃣ Code & Containerize
 - Create a **GitHub repo** and develop the **Python Flask** app and **Dockerize** it.
-- Build and test the Docker image locally then push the code to **GitHub**.
+- Build and test the docker image locally then push the code to **GitHub**.
 
 ---
 
@@ -40,7 +40,7 @@ It reflects real-world **DevOps practices** by automating the entire software de
 - In GKE:
   - Create `a namespace` from `Cloud Shell`.
   - Create a deployment/service yaml file `gke.yaml` for K8 deployment.
-  - Create `Cloud Build file` to deploy to GKE automatically after building the Docker image.
+  - Create `Cloud Build file` to deploy to GKE automatically after building the container image.
 
 ---
 
