@@ -12,7 +12,7 @@ steps:
   - --filename=gke.yaml
   - --image=gcr.io/$PROJECT_ID/gke-pj
   - --location=us-central1-a
-  - --cluster=gcp-deploy-pj
+  - --cluster=gke-deploy-pj
   - --namespace=gke-deploy-dev
 options: # <-- Add this field
   logging: CLOUD_LOGGING_ONLY # <-- Indent 'logging' under 'options'
