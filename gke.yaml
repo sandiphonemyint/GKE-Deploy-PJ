@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: gcp-devops-gke
-        image: gcr.io/turing-seeker-461812-r5/gke-pj
+        image: gcr.io/$PROJECT_ID/gke-pj
         ports:
         - containerPort: 5000
         env:
@@ -42,4 +42,4 @@ spec:
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 80  # changed from 5000 to 80
+      targetPort: 80  
