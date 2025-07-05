@@ -14,3 +14,5 @@ steps:
   - --location=us-central1-a
   - --cluster=gke-deploy-pj
   - --namespace=gke-deploy-dev
+options: # <-- Add this field
+  logging: CLOUD_LOGGING_ONLY # <-- Indent 'logging' under 'options'
