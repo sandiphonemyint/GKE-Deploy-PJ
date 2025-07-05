@@ -16,6 +16,7 @@ It reflects real-world **DevOps practices** by automating the entire software de
 - ☸️ **Kubernetes Engine (GKE)**
 - 🐳 **Docker**
 - 🌐 **GitHub**
+- 〽 **Cloud Shell**
 
 ---
 
